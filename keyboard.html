@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/style.css">
+    <title>Minh's Keybroad</title>
+</head>
+<body>
+    <div id="screen"></div>
+    <input id="buffer" type="text" >
+    <div id="keyboard"></div>
+
+    <script src="./model/node.js"></script>
+    <script src="./model/buffer.js"></script>
+    <script src="./model/keyboard.js"></script>
+    <script>
+        let keyboard = new Keyboard();
+        document.getElementById('keyboard').append(keyboard.displayKeyboard());
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+* {
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#keyboard {
+    margin: 10px;
+}
+button {
+    margin: 2px;
+    padding: 20px;
+}
+input {
+    padding: 15px;
+    margin: 20px;
+}
